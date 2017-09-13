@@ -1,0 +1,32 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTemplate.iPhone", "DesignTemplate.iPhone\DesignTemplate.iPhone.csproj", "{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{A99D67D2-F57F-4B82-AAD7-9FC4EF1FBA4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{79F9D496-CC62-476F-A9A6-D9329286E58B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_doc", "_doc", "{B3C320F2-9C04-4AA9-BE7D-9E083E5380A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Release|iPhone.Build.0 = Release|iPhone
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC} = {A99D67D2-F57F-4B82-AAD7-9FC4EF1FBA4A}
+	EndGlobalSection
+EndGlobal

@@ -86,10 +86,60 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_2.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_4.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Splash_3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\4.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\5.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button_next.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button.imageset\Onboarding_button_go.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button.imageset\Onboarding_button_go%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button.imageset\Onboarding_button_go%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button_next.imageset\Button_onboarding.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button_next.imageset\Button_onboarding%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_button_next.imageset\Button_onboarding%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_1.imageset\background_1%401x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_1.imageset\background_1%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_1.imageset\background_1%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_2.imageset\background_2.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_2.imageset\background_2%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_2.imageset\background_2%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_3.imageset\background_3.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_3.imageset\background_3%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_background_3.imageset\background_3%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_1.imageset\ill_1.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_1.imageset\ill_1%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_1.imageset\ill_1%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_2.imageset\ill_3.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_2.imageset\ill_3%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_2.imageset\ill_3%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_3.imageset\ill_2.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_3.imageset\ill_2%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Onboarding_ill_3.imageset\ill_2%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Views\" />
+    <Folder Include="Views\Onboarding\" />
+    <Folder Include="Assets.xcassets\Onboarding_button_next.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_button.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_background_1.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_background_2.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_background_3.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_ill_1.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_ill_2.imageset\" />
+    <Folder Include="Assets.xcassets\Onboarding_ill_3.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -98,13 +148,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Views\MyViewController.cs" />
-    <Compile Include="Views\MyViewController.designer.cs">
-      <DependentUpon>MyViewController.cs</DependentUpon>
+    <Compile Include="Views\Onboarding\OnboardingViewController.cs" />
+    <Compile Include="Views\Onboarding\OnboardingViewController.designer.cs">
+      <DependentUpon>OnboardingViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="Views\MyViewController.xib" />
+    <InterfaceDefinition Include="Views\Onboarding\OnboardingViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

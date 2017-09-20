@@ -1,4 +1,5 @@
 ﻿using DesignTemplate.iPhone.Views;
+using DesignTemplate.iPhone.Views.Onboarding;
 using Foundation;
 using UIKit;
 
@@ -20,7 +21,7 @@ namespace DesignTemplate.iPhone
             Window = new UIWindow();
 
 			//TODO: заменить инициализацию пустого MyViewController на свой экран
-			var viewController = new MyViewController();
+			var viewController = new OnboardingViewController();
 
             Window.RootViewController = new UINavigationController(viewController);
 

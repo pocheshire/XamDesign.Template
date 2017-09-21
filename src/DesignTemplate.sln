@@ -9,6 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{79F9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_doc", "_doc", "{B3C320F2-9C04-4AA9-BE7D-9E083E5380A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{25BD7C27-42AE-47AF-A874-EBA47DDA9EA9}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\iOS\01_Common.md = ..\doc\iOS\01_Common.md
+		..\doc\iOS\02_Navigation.md = ..\doc\iOS\02_Navigation.md
+		..\doc\iOS\03_Contols_events.md = ..\doc\iOS\03_Contols_events.md
+		..\doc\iOS\README.md = ..\doc\iOS\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -28,5 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{12C35890-8DB5-4DCF-A589-9BCA33C1B6FC} = {A99D67D2-F57F-4B82-AAD7-9FC4EF1FBA4A}
+		{25BD7C27-42AE-47AF-A874-EBA47DDA9EA9} = {B3C320F2-9C04-4AA9-BE7D-9E083E5380A8}
 	EndGlobalSection
 EndGlobal

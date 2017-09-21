@@ -1,5 +1,5 @@
 ﻿using System;
-
+using DesignTemplate.iPhone.Views.Main;
 using UIKit;
 
 namespace DesignTemplate.iPhone.Views.Onboarding
@@ -44,9 +44,7 @@ namespace DesignTemplate.iPhone.Views.Onboarding
                     _scrollView.SetContentOffset(new CoreGraphics.CGPoint(UIScreen.MainScreen.Bounds.Width * CardIndex, 0), true);
 
                 if (CardIndex == _pageControl.Pages)
-                {
-                    //TODO: сделать переход на следующий экран
-                }
+                    NavigationController.PushViewController(new MainViewController(), false);
             };
 
             _scrollView.Scrolled += (sender, e) =>

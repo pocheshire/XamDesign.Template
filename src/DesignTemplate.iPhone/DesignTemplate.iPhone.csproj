@@ -140,6 +140,7 @@
     <Folder Include="Assets.xcassets\Onboarding_ill_1.imageset\" />
     <Folder Include="Assets.xcassets\Onboarding_ill_2.imageset\" />
     <Folder Include="Assets.xcassets\Onboarding_ill_3.imageset\" />
+    <Folder Include="Views\Main\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -152,9 +153,14 @@
     <Compile Include="Views\Onboarding\OnboardingViewController.designer.cs">
       <DependentUpon>OnboardingViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Main\MainViewController.cs" />
+    <Compile Include="Views\Main\MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Views\Onboarding\OnboardingViewController.xib" />
+    <InterfaceDefinition Include="Views\Main\MainViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
